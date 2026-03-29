@@ -1,24 +1,27 @@
 import React from "react";
 import "./App.css";
-import logo from "./logo_IRESHA.png";
+import logo from "./logo_personaCreator.png";
 
 const App = () => {
   return (
     <div className="container">
       <div className="content-column">
         <div className="title-logo">
-          <img src={logo} alt="IRESHA Logo" className="logo" />
+          <img src={logo} alt="Persona Creator Logo" className="logo" />
           {/* <h2 className="title">
             
             <br />
           </h2> */}
         </div>
         <h4 className="description">
-          IRESHA Sharecode app is currently hosted on Streamlit. <br />
+          This tool allows stakeholders to generate personas from public datasets focusing on online harms and bias in digital services. <br/>
+
+        Persona Creator app is currently offline for maintainance. <br />
           Click below to launch it:
         </h4>
         <button
           className="launch-button"
+          disabled
           onClick={() =>
             (window.location.href = "https://iresha.streamlit.app")
           }
