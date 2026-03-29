@@ -23,7 +23,7 @@ const App = () => {
           className="launch-button"
           disabled
           onClick={() =>
-            (window.location.href = "https://iresha.streamlit.app")
+            (window.location.href = "https://personacreator.streamlit.app")
           }
         >
           Launch app
