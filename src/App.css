@@ -54,7 +54,7 @@ h4 .description {
 }
 
 .launch-button {
-  background-color: #4caf50;
+  background-color: #9e9e9e;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -68,5 +68,5 @@ h4 .description {
 }
 
 .launch-button:hover {
-  background-color: #388e3c;
+  background-color: #8a8a8a;
 }

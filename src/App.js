@@ -17,7 +17,7 @@ const App = () => {
           This tool allows stakeholders to generate personas from public datasets focusing on online harms and bias in digital services. <br/>
 
         Persona Creator app is currently offline for maintainance. <br />
-          Click below to launch it:
+          {/* Click below to launch it: */}
         </h4>
         <button
           className="launch-button"
